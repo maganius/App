@@ -1,0 +1,92 @@
+Page.conferencista {
+    background-color: #eaeaea;
+    & .data{
+        & Image {
+            margin-top: 50px
+        }
+        & Label {
+            font-size: 20px;
+            color: white;
+            padding: 20px;
+        }
+        & .institucion{
+            font-size: 10px;
+        }
+    }
+    & .programas {
+        & .title {
+            margin-top: 30px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            text-align: center;
+        }
+        & .grid {
+            padding: 0;
+            Label {
+                padding-left: 12px;
+                margin: 0;
+            }
+            & .arrow {
+                font-size: 36px;
+            }
+            & .date {
+                font-size: 16px;
+                padding-left: 18px;
+                padding-right: 25px;
+                font-weight: bold;
+            }
+            & .date_day {
+            }
+            & .date Label {
+                /*border-width: 2px;
+                border-color: #383a37;*/
+                padding: 0;
+            }
+            & .dia {
+                text-transform: capitalize;
+                padding-top: 0;
+                font-size: 22px;
+                color: #832c46;
+                text-align: center;
+            }
+            & .icon-map-marker{
+                font-size: 18px;
+            }
+            & .sala {
+                padding-top: 0;
+                font-size: 14px;
+                color: #832c46;
+                text-align: right;
+            }
+            & .icon-clock{
+                font-size: 18px;
+            }
+            & .hour {
+                padding-top: 0;
+                font-size: 14px;
+                color: #832c46;
+                margin-left: 14px;
+                /*border-color: #000;
+                border-width: 2px;*/
+            }
+            & .titulos_conf {
+                font-weight: bold;
+                margin-left: 14px;
+                border-top-width: 2px;
+                border-top-color: #d53b21;
+                /*border-bottom-width: 2px;
+                border-bottom-color: #d53b21;*/
+            }
+            & .titulo_actividad {
+                font-size: 12px;
+                margin-left: 14px;
+            }
+        }
+    }
+    & .cv{
+        margin-left: 30px;
+    }
+    & .datos_perfil{
+        margin-left: 30px;
+    }
+}

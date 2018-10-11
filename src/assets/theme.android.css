@@ -1,0 +1,11 @@
+.android-bar{
+    margin-left: -30px;
+    padding-top: 10px;
+}
+.android-bar .back-arrow{
+    padding-left: 20px;
+    font-size: 20px;
+}
+.android-bar SearchBar{
+    margin-top: 10px
+}

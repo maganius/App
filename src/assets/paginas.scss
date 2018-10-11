@@ -1,0 +1,33 @@
+.container {
+  padding: 30px;
+}
+HtmlView{
+  padding: 50px;
+  border-bottom:1px;
+  border-color: white;
+}
+
+HtmlView p.titulos{
+  font-size: 26px;
+}
+
+.RadMenu {
+  & .container {
+    padding: 0px;
+    background-color: #e6e6e6;
+    & .header{
+      background-color: #fe9f2a;
+    }
+    & .content {
+      & Label {
+        padding: 40px;
+        border-bottom-color: #1485ab;
+        border-bottom-width: 1px;
+        font-size: 20px;
+      }
+      & Label.fa .icon {
+        color: red;
+      }
+    }
+  }
+}

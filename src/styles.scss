@@ -1,0 +1,25 @@
+// NativeScript core theme
+// @see https://docs.nativescript.org/ui/theme
+@import '~nativescript-theme-core/scss/skins/light/index';
+@import '~nativescript-theme-core/scss/index';
+
+// Global SCSS styling
+// @see https://docs.nativescript.org/ui/styling
+
+.home-menu{
+  border-color: #e9ebe8;
+  border-width: 1px;
+  padding-top: 50px;
+  line-height: 15px;
+}
+
+.home-menu .icon{
+  color: red;
+  font-size:30px;
+}
+
+.home-menu .text{
+  color: #383a37;
+
+}
+
